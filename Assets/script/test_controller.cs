@@ -7,6 +7,7 @@ public class test_controller : MonoBehaviour
 
     void Start()
     {
+        this.add_ai();
         this.randomize_dinos_speed();
     }
 
@@ -17,9 +18,14 @@ public class test_controller : MonoBehaviour
         this.control_dinos();
     }
 
-    void control_dinos()
+    void add_ai()
     {
-        var dino_state_controllers = FindObjectsOfType<dino_state_controller>();
+        foreach(var dino_controller in FindObjectsOfType<dino_state_controller>())
+        {
+            dino_controller.gameObject.AddComponent<dino_ai_controller>();
+            dino_controller.facing_direction = (int)Mathf.Round(Random.value) == 0 ? dino_facing_direction.left : dino_facing_direction.right;
+        }
+    }
 
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
