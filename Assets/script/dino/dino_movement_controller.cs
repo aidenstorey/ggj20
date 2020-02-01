@@ -20,8 +20,8 @@ public class dino_movement_controller : MonoBehaviour
         { dino_state.hurt, 0.0f },
     };
 
-    Vector3 _movement_offset;
-    float _speed_modifier;
+    Vector3 _movement_offset = Vector3.zero;
+    float _speed_modifier = 0.0f;
 
     public float speed = 1.0f;
 
