@@ -15,7 +15,8 @@ public class test_controller : MonoBehaviour
     void Update()
     {
         // this.change_animation();
-        this.control_dinos();
+        // this.control_dinos();
+        this.control_meteors();
     }
 
     void add_ai()
@@ -27,6 +28,8 @@ public class test_controller : MonoBehaviour
         }
     }
 
+    void control_dinos()
+    {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             foreach(var dino_controller in FindObjectsOfType<dino_state_controller>())
@@ -58,6 +61,43 @@ public class test_controller : MonoBehaviour
             foreach(var dino_controller in FindObjectsOfType<dino_state_controller>())
             {
                 dino_controller.state = dino_state.idle;
+            }
+        }
+    }
+
+    void control_meteors()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            foreach(var meteor_controller in FindObjectsOfType<meteor_state_controller>())
+            {
+                meteor_controller.state = meteor_state.move;
+                meteor_controller.direction = meteor_direction.left;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            foreach(var meteor_controller in FindObjectsOfType<meteor_state_controller>())
+            {
+                meteor_controller.state = meteor_state.move;
+                meteor_controller.direction = meteor_direction.right;
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            foreach(var meteor_controller in FindObjectsOfType<meteor_state_controller>())
+            {
+                meteor_controller.state = meteor_state.idle;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            foreach(var meteor_controller in FindObjectsOfType<meteor_state_controller>())
+            {
+                meteor_controller.state = meteor_state.drop;
             }
         }
     }
