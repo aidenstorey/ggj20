@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - dino_edge
+  - dino_edge_left
+  - dino_edge_right
   layers:
   - Default
   - TransparentFX
