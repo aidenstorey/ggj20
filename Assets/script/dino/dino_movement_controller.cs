@@ -33,7 +33,8 @@ public class dino_movement_controller : MonoBehaviour
 
     void process_movement()
     {
-        this.transform.position += this._movement_offset * (this._speed_modifier * this.speed);
+        var offset = this._movement_offset * (this._speed_modifier * this.speed);
+        this.transform.position = game_border_controller.instance.keep_in_bounds(this.transform.position + offset);
     }
 
     public void change_facing_direction(dino_facing_direction facing_direction)
