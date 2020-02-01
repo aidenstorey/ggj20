@@ -146,6 +146,150 @@ TextureImporter:
   - first:
       213: -5695827065548877693
     second: mort_23
+  - first:
+      213: -7724857568015935613
+    second: mort_sprite_0
+  - first:
+      213: -1831087999969272720
+    second: mort_sprite_1
+  - first:
+      213: 1904221590494378595
+    second: mort_sprite_2
+  - first:
+      213: -4987713432173183826
+    second: mort_sprite_3
+  - first:
+      213: 8141536925239547618
+    second: mort_sprite_4
+  - first:
+      213: -2322451134755020930
+    second: mort_sprite_5
+  - first:
+      213: -5763225538282216958
+    second: mort_sprite_6
+  - first:
+      213: -7034369365518491569
+    second: mort_sprite_7
+  - first:
+      213: 8853158240187519014
+    second: mort_sprite_8
+  - first:
+      213: 6140849495019979259
+    second: mort_sprite_9
+  - first:
+      213: -6823135990757727787
+    second: mort_sprite_10
+  - first:
+      213: 9138724109272577266
+    second: mort_sprite_11
+  - first:
+      213: 2148224271898332553
+    second: mort_sprite_12
+  - first:
+      213: -218377587679266267
+    second: mort_sprite_13
+  - first:
+      213: 240529521286756662
+    second: mort_sprite_14
+  - first:
+      213: -5825157217616343521
+    second: mort_sprite_15
+  - first:
+      213: -8299414710572693463
+    second: mort_sprite_16
+  - first:
+      213: -6063295573449988354
+    second: mort_sprite_17
+  - first:
+      213: 1217381326729303787
+    second: mort_sprite_18
+  - first:
+      213: -3351618053901824729
+    second: mort_sprite_19
+  - first:
+      213: 400596423446343325
+    second: mort_sprite_20
+  - first:
+      213: -2832084437034662600
+    second: mort_sprite_21
+  - first:
+      213: -6619222420186927031
+    second: mort_sprite_22
+  - first:
+      213: -534432855231007927
+    second: mort_sprite_23
+  - first:
+      213: -7597651416171405246
+    second: mort_sprite_0
+  - first:
+      213: -7740792602476334541
+    second: mort_sprite_1
+  - first:
+      213: -5464794122502116463
+    second: mort_sprite_2
+  - first:
+      213: 8543557964260594004
+    second: mort_sprite_3
+  - first:
+      213: -841303754866300397
+    second: mort_sprite_4
+  - first:
+      213: 7523500538825565072
+    second: mort_sprite_5
+  - first:
+      213: 5415974213767371791
+    second: mort_sprite_6
+  - first:
+      213: 3735913011621789557
+    second: mort_sprite_7
+  - first:
+      213: -8342554647267791792
+    second: mort_sprite_8
+  - first:
+      213: -4998566045916813305
+    second: mort_sprite_9
+  - first:
+      213: 7079362448251821436
+    second: mort_sprite_10
+  - first:
+      213: 2288514538892222114
+    second: mort_sprite_11
+  - first:
+      213: -459826492558525486
+    second: mort_sprite_12
+  - first:
+      213: -5173777884811530425
+    second: mort_sprite_13
+  - first:
+      213: 1622957486411780144
+    second: mort_sprite_14
+  - first:
+      213: 2236837855110445078
+    second: mort_sprite_15
+  - first:
+      213: 4056661651608103330
+    second: mort_sprite_16
+  - first:
+      213: -2272798110836600138
+    second: mort_sprite_17
+  - first:
+      213: 5082833889876007394
+    second: mort_sprite_18
+  - first:
+      213: -7497950379044767029
+    second: mort_sprite_19
+  - first:
+      213: 3380136045726146993
+    second: mort_sprite_20
+  - first:
+      213: -2909212700628685538
+    second: mort_sprite_21
+  - first:
+      213: 7840757412785116500
+    second: mort_sprite_22
+  - first:
+      213: -5310558361849712925
+    second: mort_sprite_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -230,7 +374,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mort_0
+      name: mort_sprite_0
       rect:
         serializedVersion: 2
         x: 0
@@ -244,14 +388,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aa556c318ce112b0800000000000000
-      internalID: -5615447220546086232
+      spriteID: 2402cd38a48bf8690800000000000000
+      internalID: -7597651416171405246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_1
+      name: mort_sprite_1
       rect:
         serializedVersion: 2
         x: 24
@@ -265,14 +409,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fdb22354573d10f0800000000000000
-      internalID: -1144697894970671627
+      spriteID: 3323d69f32e239490800000000000000
+      internalID: -7740792602476334541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_2
+      name: mort_sprite_2
       rect:
         serializedVersion: 2
         x: 48
@@ -286,14 +430,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0e5c9a81a0a0c900800000000000000
-      internalID: 702738157545479693
+      spriteID: 19b6e9503b62924b0800000000000000
+      internalID: -5464794122502116463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_3
+      name: mort_sprite_3
       rect:
         serializedVersion: 2
         x: 72
@@ -307,14 +451,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65248bc71048e0f00800000000000000
-      internalID: 1084949702165152342
+      spriteID: 45156b9e3b0d09670800000000000000
+      internalID: 8543557964260594004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_4
+      name: mort_sprite_4
       rect:
         serializedVersion: 2
         x: 96
@@ -328,14 +472,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4225b7442546dbd20800000000000000
-      internalID: 3295900806804099620
+      spriteID: 31aedfe31b61354f0800000000000000
+      internalID: -841303754866300397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_5
+      name: mort_sprite_5
       rect:
         serializedVersion: 2
         x: 120
@@ -349,14 +493,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a2ab0a08c0145800800000000000000
-      internalID: 600123101695156902
+      spriteID: 093682cf0e7d86860800000000000000
+      internalID: 7523500538825565072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_6
+      name: mort_sprite_6
       rect:
         serializedVersion: 2
         x: 144
@@ -370,14 +514,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1abddc6579779ad0800000000000000
-      internalID: -2695552306713347553
+      spriteID: f0c97443ad7692b40800000000000000
+      internalID: 5415974213767371791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_7
+      name: mort_sprite_7
       rect:
         serializedVersion: 2
         x: 168
@@ -391,14 +535,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef722d1685af988d0800000000000000
-      internalID: -2843466432202528770
+      spriteID: 57ff9712711a8d330800000000000000
+      internalID: 3735913011621789557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_8
+      name: mort_sprite_8
       rect:
         serializedVersion: 2
         x: 192
@@ -412,14 +556,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efca422deafb332a0800000000000000
-      internalID: -6758847858182148866
+      spriteID: 05ca152cfba493c80800000000000000
+      internalID: -8342554647267791792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_9
+      name: mort_sprite_9
       rect:
         serializedVersion: 2
         x: 216
@@ -433,14 +577,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e38ef1edc2385c670800000000000000
-      internalID: 8558390895615928382
+      spriteID: 708acce2aa681aab0800000000000000
+      internalID: -4998566045916813305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_10
+      name: mort_sprite_10
       rect:
         serializedVersion: 2
         x: 240
@@ -454,14 +598,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d89b6cb0f663a6970800000000000000
-      internalID: 8748865076687452557
+      spriteID: c7d1a4c73a2fe3260800000000000000
+      internalID: 7079362448251821436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_11
+      name: mort_sprite_11
       rect:
         serializedVersion: 2
         x: 264
@@ -475,14 +619,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 156466e077d1379c0800000000000000
-      internalID: -3930765652584413615
+      spriteID: 2aedcf919df62cf10800000000000000
+      internalID: 2288514538892222114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_12
+      name: mort_sprite_12
       rect:
         serializedVersion: 2
         x: 288
@@ -496,14 +640,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 284c7b0c5af5d8900800000000000000
-      internalID: 688311483565065346
+      spriteID: 2db3cb4cd3e5e99f0800000000000000
+      internalID: -459826492558525486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_13
+      name: mort_sprite_13
       rect:
         serializedVersion: 2
         x: 312
@@ -517,14 +661,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcc63073f6b973f60800000000000000
-      internalID: 8014044963895733451
+      spriteID: 74f6905fc6c0338b0800000000000000
+      internalID: -5173777884811530425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_14
+      name: mort_sprite_14
       rect:
         serializedVersion: 2
         x: 336
@@ -538,14 +682,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6e60e292acb5c5a0800000000000000
-      internalID: -6501583080604537236
+      spriteID: 030922f2c37e58610800000000000000
+      internalID: 1622957486411780144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_15
+      name: mort_sprite_15
       rect:
         serializedVersion: 2
         x: 360
@@ -559,14 +703,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41ca49ce9f62fd4f0800000000000000
-      internalID: -801879353790780396
+      spriteID: 618310e8d28da0f10800000000000000
+      internalID: 2236837855110445078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_16
+      name: mort_sprite_16
       rect:
         serializedVersion: 2
         x: 384
@@ -580,14 +724,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8641ebaa13efc4670800000000000000
-      internalID: 8524467683976942696
+      spriteID: 2a9ec0e67482c4830800000000000000
+      internalID: 4056661651608103330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_17
+      name: mort_sprite_17
       rect:
         serializedVersion: 2
         x: 408
@@ -601,14 +745,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6877986b9b035d00800000000000000
-      internalID: 960123907662641258
+      spriteID: 6b2d765f8266570e0800000000000000
+      internalID: -2272798110836600138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_18
+      name: mort_sprite_18
       rect:
         serializedVersion: 2
         x: 432
@@ -622,14 +766,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 070a1bcf03a5fde10800000000000000
-      internalID: 2224595907388743792
+      spriteID: 2e9506a2e7ad98640800000000000000
+      internalID: 5082833889876007394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_19
+      name: mort_sprite_19
       rect:
         serializedVersion: 2
         x: 456
@@ -643,14 +787,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97ba08f10d109c510800000000000000
-      internalID: 1569787938508680057
+      spriteID: bcaf7892bdde1f790800000000000000
+      internalID: -7497950379044767029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_20
+      name: mort_sprite_20
       rect:
         serializedVersion: 2
         x: 480
@@ -664,14 +808,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a44411fcb6d2ed4f0800000000000000
-      internalID: -802153742566603702
+      spriteID: 1b1200a23d7a8ee20800000000000000
+      internalID: 3380136045726146993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_21
+      name: mort_sprite_21
       rect:
         serializedVersion: 2
         x: 504
@@ -685,14 +829,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38f10955dc4ae6af0800000000000000
-      internalID: -401202114978635901
+      spriteID: e1de8f2667660a7d0800000000000000
+      internalID: -2909212700628685538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_22
+      name: mort_sprite_22
       rect:
         serializedVersion: 2
         x: 528
@@ -706,14 +850,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 234345be20ebfabe0800000000000000
-      internalID: -1463742434124745678
+      spriteID: 45551172357ffcc60800000000000000
+      internalID: 7840757412785116500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mort_23
+      name: mort_sprite_23
       rect:
         serializedVersion: 2
         x: 552
@@ -727,8 +871,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38057ef267b54f0b0800000000000000
-      internalID: -5695827065548877693
+      spriteID: 3eea7f27e4b1d46b0800000000000000
+      internalID: -5310558361849712925
       vertices: []
       indices: 
       edges: []
