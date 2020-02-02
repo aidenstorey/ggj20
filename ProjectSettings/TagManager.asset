@@ -6,6 +6,7 @@ TagManager:
   tags:
   - dino_edge_left
   - dino_edge_right
+  - meteor
   layers:
   - Default
   - TransparentFX
