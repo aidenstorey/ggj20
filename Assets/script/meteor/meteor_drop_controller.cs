@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class meteor_drop_controller : MonoBehaviour
 {
