@@ -3,10 +3,12 @@
 public class meteor_drop_controller : MonoBehaviour
 {
     GameObject _meteor_object;
+    meteor_state_controller _state_controller;
 
     void Start()
     {
         this._meteor_object = this.transform.GetChild(0).gameObject;
+        this._state_controller = this.GetComponent<meteor_state_controller>();
     }
 
     private void Update()
@@ -30,7 +32,10 @@ public class meteor_drop_controller : MonoBehaviour
                 new dino_hit(position_b),
                 new tween(this._meteor_object, position_b, position_c, 0.1f),
                 new tween(this._meteor_object, position_c, position_d, 0.35f),
-                new tween(this._meteor_object, position_e, position_a, 0.6f));
+                new tween(this._meteor_object, position_e, position_a, 0.6f),
+                new one_shot(() => this._state_controller.state = meteor_state.idle)
+            );
+
         }
     }
 }
