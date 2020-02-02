@@ -44,4 +44,10 @@ public class state_manager
             state_manager._update_current();
         }
     }
+
+    static public bool processing {
+            get {
+                return state_manager._current != null;
+            }
+    }
 }
