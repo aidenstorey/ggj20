@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using UnityEngine;
 
 public class dino_ai_controller : MonoBehaviour
@@ -21,9 +19,9 @@ public class dino_ai_controller : MonoBehaviour
 
     void dumb_ai()
     {
-        if ((int)(Random.value * 100.0f) == 0)
+        if (this._state_controller.state == dino_state.walk && (int)(Random.value * 100.0f) == 0)
         {
-            this._state_controller.facing_direction = helper.iterate_enum_excluding(this._state_controller.facing_direction).First();;
+            this._state_controller.facing_direction = helper.iterate_enum_excluding(this._state_controller.facing_direction).First();
         }
     }
 }
