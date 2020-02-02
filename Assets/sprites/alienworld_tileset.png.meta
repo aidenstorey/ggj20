@@ -1,0 +1,973 @@
+fileFormatVersion: 2
+guid: ff4204ae9610443dd93ef6be8ed1cb21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4463543192231197209
+    second: alienworld_tileset_0
+  - first:
+      213: 7676708989915652285
+    second: alienworld_tileset_1
+  - first:
+      213: 4624281434582899397
+    second: alienworld_tileset_2
+  - first:
+      213: -8013711939650041782
+    second: alienworld_tileset_3
+  - first:
+      213: -7353233570752257301
+    second: alienworld_tileset_4
+  - first:
+      213: 6558892272352095655
+    second: alienworld_tileset_5
+  - first:
+      213: 1134165763146078366
+    second: alienworld_tileset_6
+  - first:
+      213: -9077468876218146263
+    second: alienworld_tileset_7
+  - first:
+      213: 2004248424446435710
+    second: alienworld_tileset_8
+  - first:
+      213: 2663955480006073589
+    second: alienworld_tileset_9
+  - first:
+      213: 8689550718714588781
+    second: alienworld_tileset_10
+  - first:
+      213: 4763145801705855307
+    second: alienworld_tileset_11
+  - first:
+      213: -2136460758381282593
+    second: alienworld_tileset_12
+  - first:
+      213: -1428969545709699698
+    second: alienworld_tileset_13
+  - first:
+      213: -3872608417233030676
+    second: alienworld_tileset_14
+  - first:
+      213: 4878389126363405398
+    second: alienworld_tileset_15
+  - first:
+      213: -3717500006504872104
+    second: alienworld_tileset_16
+  - first:
+      213: -7694124261969791849
+    second: alienworld_tileset_17
+  - first:
+      213: -2038089037751118852
+    second: alienworld_tileset_18
+  - first:
+      213: -2900700471781907347
+    second: alienworld_tileset_19
+  - first:
+      213: -2424256025585687580
+    second: alienworld_tileset_20
+  - first:
+      213: 5090241380095425578
+    second: alienworld_tileset_21
+  - first:
+      213: 7265857338499928019
+    second: alienworld_tileset_22
+  - first:
+      213: 3041796508959194495
+    second: alienworld_tileset_23
+  - first:
+      213: -4101642713061878722
+    second: alienworld_tileset_24
+  - first:
+      213: -7762541784835185951
+    second: alienworld_tileset_25
+  - first:
+      213: 7731912444153023657
+    second: alienworld_tileset_26
+  - first:
+      213: 1949309133230699579
+    second: alienworld_tileset_27
+  - first:
+      213: 4214939731577214702
+    second: alienworld_tileset_28
+  - first:
+      213: -328228047165560132
+    second: alienworld_tileset_29
+  - first:
+      213: -7247129693655721115
+    second: alienworld_tileset_30
+  - first:
+      213: -2601666039018598873
+    second: alienworld_tileset_31
+  - first:
+      213: 868774673888631204
+    second: alienworld_tileset_32
+  - first:
+      213: -4525309604826864940
+    second: alienworld_tileset_33
+  - first:
+      213: 6996250095739637624
+    second: alienworld_tileset_34
+  - first:
+      213: -2064822937858690728
+    second: alienworld_tileset_35
+  - first:
+      213: 6375652073984425070
+    second: alienworld_tileset_36
+  - first:
+      213: -8253074825039920885
+    second: alienworld_tileset_37
+  - first:
+      213: 5143234449319598810
+    second: alienworld_tileset_38
+  - first:
+      213: -2936810066443285769
+    second: alienworld_tileset_39
+  - first:
+      213: 3098493551389561325
+    second: alienworld_tileset_40
+  - first:
+      213: -8442662170106390518
+    second: alienworld_tileset_41
+  - first:
+      213: -2546990703376292849
+    second: alienworld_tileset_42
+  - first:
+      213: 6341390907680377244
+    second: alienworld_tileset_43
+  - first:
+      213: 2815076998009641152
+    second: alienworld_tileset_44
+  - first:
+      213: -4562438192776326656
+    second: alienworld_tileset_45
+  - first:
+      213: 6777979675103451094
+    second: alienworld_tileset_46
+  - first:
+      213: -4177594917918817568
+    second: alienworld_tileset_47
+  - first:
+      213: -2323016425728446364
+    second: alienworld_tileset_48
+  - first:
+      213: -2567645117773462503
+    second: alienworld_tileset_49
+  - first:
+      213: -3332287014847353891
+    second: alienworld_tileset_50
+  - first:
+      213: 8980266338243457546
+    second: alienworld_tileset_51
+  - first:
+      213: 6062194890212420573
+    second: alienworld_tileset_52
+  - first:
+      213: -973681132907320996
+    second: alienworld_tileset_53
+  - first:
+      213: -5875398924630346969
+    second: alienworld_tileset_54
+  - first:
+      213: 1779151171382851990
+    second: alienworld_tileset_55
+  - first:
+      213: -278095076998016125
+    second: alienworld_tileset_56
+  - first:
+      213: -7922761604101750062
+    second: alienworld_tileset_57
+  - first:
+      213: 4176524260944267319
+    second: alienworld_tileset_58
+  - first:
+      213: -5240536996612379723
+    second: alienworld_tileset_59
+  - first:
+      213: 1958785303255116679
+    second: alienworld_tileset_60
+  - first:
+      213: 8763061180362045242
+    second: alienworld_tileset_61
+  - first:
+      213: 1892276095257353103
+    second: alienworld_tileset_62
+  - first:
+      213: 5390908660688481532
+    second: alienworld_tileset_63
+  - first:
+      213: 1817245072748860999
+    second: alienworld_tileset_64
+  - first:
+      213: -4874906730000817003
+    second: alienworld_tileset_65
+  - first:
+      213: 4757405819986263489
+    second: alienworld_tileset_66
+  - first:
+      213: 5244129374040107713
+    second: alienworld_tileset_67
+  - first:
+      213: -6617320340276697134
+    second: alienworld_tileset_68
+  - first:
+      213: -2093808326723286876
+    second: alienworld_tileset_69
+  - first:
+      213: -4142573194479465101
+    second: alienworld_tileset_70
+  - first:
+      213: 3821982331358456234
+    second: alienworld_tileset_71
+  - first:
+      213: 6372354634230096413
+    second: alienworld_tileset_72
+  - first:
+      213: 6542266018390398666
+    second: alienworld_tileset_73
+  - first:
+      213: -4784230857670129379
+    second: alienworld_tileset_74
+  - first:
+      213: -2676657510797547607
+    second: alienworld_tileset_75
+  - first:
+      213: 1883155063213796202
+    second: alienworld_tileset_76
+  - first:
+      213: 4116252707980968245
+    second: alienworld_tileset_77
+  - first:
+      213: -1294697213949134686
+    second: alienworld_tileset_78
+  - first:
+      213: -3084553662826060207
+    second: alienworld_tileset_79
+  - first:
+      213: -2655888955899954453
+    second: alienworld_tileset_80
+  - first:
+      213: -8466873392864209157
+    second: alienworld_tileset_81
+  - first:
+      213: 5995810244340830630
+    second: alienworld_tileset_82
+  - first:
+      213: 422175421909840766
+    second: alienworld_tileset_83
+  - first:
+      213: 570261587243288910
+    second: alienworld_tileset_84
+  - first:
+      213: 8579757796773251629
+    second: alienworld_tileset_85
+  - first:
+      213: -2225884010380241320
+    second: alienworld_tileset_86
+  - first:
+      213: -1398025312005774406
+    second: alienworld_tileset_87
+  - first:
+      213: 3173089634509988225
+    second: alienworld_tileset_88
+  - first:
+      213: 6069722927539513290
+    second: alienworld_tileset_89
+  - first:
+      213: 2543167555806212131
+    second: alienworld_tileset_90
+  - first:
+      213: -4260402579935357473
+    second: alienworld_tileset_91
+  - first:
+      213: -7917267517866459995
+    second: alienworld_tileset_92
+  - first:
+      213: 9204014069307290658
+    second: alienworld_tileset_93
+  - first:
+      213: -8807402693837399762
+    second: alienworld_tileset_94
+  - first:
+      213: -555180978729017680
+    second: alienworld_tileset_95
+  - first:
+      213: 5425318489076389829
+    second: alienworld_tileset_96
+  - first:
+      213: -6290455746314662544
+    second: alienworld_tileset_97
+  - first:
+      213: -2559199129572354012
+    second: alienworld_tileset_98
+  - first:
+      213: 5797475581735677609
+    second: alienworld_tileset_99
+  - first:
+      213: 860709850914954916
+    second: alienworld_tileset_100
+  - first:
+      213: -6516635662933464893
+    second: alienworld_tileset_101
+  - first:
+      213: -4551791964604160841
+    second: alienworld_tileset_102
+  - first:
+      213: -1345915447347802632
+    second: alienworld_tileset_103
+  - first:
+      213: -7093078080503049781
+    second: alienworld_tileset_104
+  - first:
+      213: 4456159306564843977
+    second: alienworld_tileset_105
+  - first:
+      213: 8650045631224797178
+    second: alienworld_tileset_106
+  - first:
+      213: 737986398464249228
+    second: alienworld_tileset_107
+  - first:
+      213: 5388001850343386018
+    second: alienworld_tileset_108
+  - first:
+      213: -5923691147017820628
+    second: alienworld_tileset_109
+  - first:
+      213: 2273817689080131536
+    second: alienworld_tileset_110
+  - first:
+      213: 2754423147254564278
+    second: alienworld_tileset_111
+  - first:
+      213: -1224869900149952302
+    second: alienworld_tileset_112
+  - first:
+      213: 5316358688276261236
+    second: alienworld_tileset_113
+  - first:
+      213: -878701890854829651
+    second: alienworld_tileset_114
+  - first:
+      213: 5865183650740159963
+    second: alienworld_tileset_115
+  - first:
+      213: -7935116785071521910
+    second: alienworld_tileset_116
+  - first:
+      213: -8532508707118969947
+    second: alienworld_tileset_117
+  - first:
+      213: 2875238019235122513
+    second: alienworld_tileset_118
+  - first:
+      213: 5634732942382596626
+    second: alienworld_tileset_119
+  - first:
+      213: -480926339854040819
+    second: alienworld_tileset_120
+  - first:
+      213: 7685418491980441940
+    second: alienworld_tileset_121
+  - first:
+      213: -6506356585083161069
+    second: alienworld_tileset_122
+  - first:
+      213: 3243925650614117329
+    second: alienworld_tileset_123
+  - first:
+      213: -3070842467938530657
+    second: alienworld_tileset_124
+  - first:
+      213: 2775703701371219176
+    second: alienworld_tileset_125
+  - first:
+      213: 5098540722269188583
+    second: alienworld_tileset_126
+  - first:
+      213: 101295106755835671
+    second: alienworld_tileset_127
+  - first:
+      213: -5990439414141426912
+    second: alienworld_tileset_128
+  - first:
+      213: 5182591406733796172
+    second: alienworld_tileset_129
+  - first:
+      213: -7473755191794620422
+    second: alienworld_tileset_130
+  - first:
+      213: 1356240464804170880
+    second: alienworld_tileset_131
+  - first:
+      213: 8490814324583811392
+    second: alienworld_tileset_132
+  - first:
+      213: -1410732907119582896
+    second: alienworld_tileset_133
+  - first:
+      213: -8827267008807284949
+    second: alienworld_tileset_134
+  - first:
+      213: -5280585595365565558
+    second: alienworld_tileset_135
+  - first:
+      213: -5036540280065723137
+    second: alienworld_tileset_136
+  - first:
+      213: -8220937987140518440
+    second: alienworld_tileset_137
+  - first:
+      213: -1865245087609418391
+    second: alienworld_tileset_138
+  - first:
+      213: 6715036744652793337
+    second: alienworld_tileset_139
+  - first:
+      213: -7378276471021864085
+    second: alienworld_tileset_140
+  - first:
+      213: -6406183770570724939
+    second: alienworld_tileset_141
+  - first:
+      213: 2680143812671239157
+    second: alienworld_tileset_142
+  - first:
+      213: -6463457760347626083
+    second: alienworld_tileset_143
+  - first:
+      213: 5803882511915038325
+    second: alienworld_tileset_144
+  - first:
+      213: 3947897049295902359
+    second: alienworld_tileset_145
+  - first:
+      213: -1547074284984551364
+    second: alienworld_tileset_146
+  - first:
+      213: -6069938308614390835
+    second: alienworld_tileset_147
+  - first:
+      213: -8149962786146238848
+    second: alienworld_tileset_148
+  - first:
+      213: 98962501991887555
+    second: alienworld_tileset_149
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: alienworld_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91abd8c62e0b1fd30800000000000000
+      internalID: 4463543192231197209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 287
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db068f34726298a60800000000000000
+      internalID: 7676708989915652285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 306
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca5fb9d67fbc2040800000000000000
+      internalID: 4624281434582899397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 324
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a484ad8037399c090800000000000000
+      internalID: -8013711939650041782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 253
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2a5d8c60114f990800000000000000
+      internalID: -7353233570752257301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 290
+        width: 54
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ade99d65cdd50b50800000000000000
+      internalID: 6558892272352095655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 338
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e985bb4a0cd5dbf00800000000000000
+      internalID: 1134165763146078366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 342
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9226a5dc62a560280800000000000000
+      internalID: -9077468876218146263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 208
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7124c4b25580db10800000000000000
+      internalID: 2004248424446435710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 304
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc9733156548f420800000000000000
+      internalID: 2663955480006073589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 178
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e29b6e65c779870800000000000000
+      internalID: 8689550718714588781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 176
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b491214ded71a1240800000000000000
+      internalID: 4763145801705855307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda3f1c7244c952e0800000000000000
+      internalID: -2136460758381282593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d3f19e4c74b2ce0800000000000000
+      internalID: -1428969545709699698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce133a8992bb14ac0800000000000000
+      internalID: -3872608417233030676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 47
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cd409401583b340800000000000000
+      internalID: 4878389126363405398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 192
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857c3c3b079c86cc0800000000000000
+      internalID: -3717500006504872104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794739bbfbaf83590800000000000000
+      internalID: -7694124261969791849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf31a3481d047b3e0800000000000000
+      internalID: -2038089037751118852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alienworld_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64a1ab1a44aeb7d0800000000000000
+      internalID: -2900700471781907347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
