@@ -1,13 +1,16 @@
 ﻿using UnityEngine;
+using UnityEditor.Animations;
 
 
 public class dino_animation_controller : MonoBehaviour
 {
+    public AnimatorController[] controllers;
     Animator _animator;
 
     void Start()
     {
         this._animator = this.GetComponent<Animator>();
+        this._animator.runtimeAnimatorController = this.controllers[Random.Range(0, controllers.Length)];
     }
 
     public void change_facing_direction(dino_facing_direction facing_direction)
