@@ -27,9 +27,10 @@ public class meteor_drop_controller : MonoBehaviour
 
             state_manager.add_queue(
                 new tween(this._meteor_object, position_a, position_b, 0.5f),
-                new tween(this._meteor_object, position_b, position_c, 0.15f),
-                new tween(this._meteor_object, position_c, position_d, 0.4f),
-                new tween(this._meteor_object, position_e, position_a, 0.5f));
+                new screen_shake(0.5f, 0.1f),
+                new tween(this._meteor_object, position_b, position_c, 0.1f),
+                new tween(this._meteor_object, position_c, position_d, 0.35f),
+                new tween(this._meteor_object, position_e, position_a, 0.6f));
         }
     }
 }
