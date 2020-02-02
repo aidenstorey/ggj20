@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class game_timer : MonoBehaviour
 {
-    public int timeRemaining = 10; //Seconds Overall
+    public int timeRemaining = 20; //Seconds Overall
     public Text countdown; //UI Text Object
     void Start()
     {
