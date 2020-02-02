@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
 
 public enum dino_facing_direction { left, right };
 public enum dino_state { idle, walk, run, hurt };
@@ -9,6 +6,7 @@ public enum dino_state { idle, walk, run, hurt };
 public class dino_state_controller : MonoBehaviour
 {
     dino_animation_controller _animation_controller;
+    dino_hurt_controller _hurt_controller;
     dino_movement_controller _movement_controller;
 
     dino_facing_direction _facing_direction = dino_facing_direction.right;
@@ -18,6 +16,9 @@ public class dino_state_controller : MonoBehaviour
     {
         this._animation_controller = this.GetComponent<dino_animation_controller>();
         this._animation_controller.change_state(this._state);
+
+        this._hurt_controller = this.GetComponent<dino_hurt_controller>();
+        this._hurt_controller.change_state(this.state);
 
         this._movement_controller = this.GetComponent<dino_movement_controller>();
         this._movement_controller.change_state(this._state);
@@ -37,6 +38,7 @@ public class dino_state_controller : MonoBehaviour
                 this._state = value;
 
                 this._animation_controller.change_state(this._state);
+                this._hurt_controller.change_state(this._state);
                 this._movement_controller.change_state(this._state);
             }
         }
