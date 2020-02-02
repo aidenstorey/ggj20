@@ -4,6 +4,8 @@ public class dino_hit_controller : MonoBehaviour
 {
     static dino_hit_controller _instance;
 
+    public float hit_distance = 1.0f;
+
     Vector3 _origin;
     float _bounce_time = 0.0f;
 
@@ -39,6 +41,7 @@ public class dino_hit_controller : MonoBehaviour
         if (dino_hit_controller._instance._bounce_time == 0.0f)
         {
             dino_hit_controller._instance._bounce_time = 0.2f;
+            dino_spawn_controller.instance.kill_near(position, dino_hit_controller._instance.hit_distance);
         }
     }
 }
