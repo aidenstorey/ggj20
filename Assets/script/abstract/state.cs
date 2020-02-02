@@ -35,7 +35,7 @@ public class tween : state
 {
     GameObject _go;
     Vector3 _start;
-    Vector3 _detla;
+    Vector3 _delta;
     float _duration;
     float _current = 0.0f;
 
@@ -43,7 +43,7 @@ public class tween : state
     {
         this._go = go;
         this._start = start;
-        this._detla = end - this._start;
+        this._delta = end - this._start;
         this._duration = duration;
     }
 
@@ -51,7 +51,7 @@ public class tween : state
     {
         this._current = Mathf.Min(this._duration, this._current + Time.deltaTime);
 
-        this._go.transform.position = this._start + this._detla / this._duration * this._current;
+        this._go.transform.position = this._start + this._delta / this._duration * this._current;
 
         if (this._current >= this._duration)
         {

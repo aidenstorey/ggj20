@@ -9,6 +9,7 @@ public enum meteor_state { idle, move, drop };
 public class meteor_state_controller : MonoBehaviour
 {
     meteor_movement_controller _movement_controller;
+    meteor_drop_controller _drop_controller;
 
     meteor_direction _direction = meteor_direction.right;
     meteor_state _state = meteor_state.idle;
@@ -17,6 +18,9 @@ public class meteor_state_controller : MonoBehaviour
     {
         this._movement_controller = this.GetComponent<meteor_movement_controller>();
         this._movement_controller.change_state(this._state);
+
+        this._drop_controller = this.GetComponent<meteor_drop_controller>();
+        this._drop_controller.change_state(this._state);
     }
 
     public meteor_state state
@@ -33,6 +37,7 @@ public class meteor_state_controller : MonoBehaviour
                 this._state = value;
 
                 this._movement_controller.change_state(this._state);
+                this._drop_controller.change_state(this._state);
             }
         }
     }
