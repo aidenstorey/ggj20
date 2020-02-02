@@ -12,7 +12,6 @@ public class dino_spawn_controller : MonoBehaviour
 
     List<GameObject> _dinos;
 
-    bool _spawning = true;
     float _frequency = 0.0f;
     float _next = 0.0f;
 
@@ -36,9 +35,9 @@ public class dino_spawn_controller : MonoBehaviour
         this._spawn_right = GameObject.FindGameObjectWithTag("dino_edge_right").transform.position;
     }
 
-    void Update()
+    public bool update_spawn()
     {
-        if (this._spawning && this.spawn_count != 0)
+        if (this.spawn_count != 0)
         {
             this._next = Mathf.Max(0.0f, this._next - Time.deltaTime);
             if (this._next == 0.0f)
@@ -51,18 +50,13 @@ public class dino_spawn_controller : MonoBehaviour
 
                 this._next = this._frequency;
             }
-
-            this._spawning = this._dinos.Count != this.spawn_count;
         }
+
+        return this._dinos.Count == this.spawn_count;
     }
 
     static public dino_spawn_controller instance {
         get { return dino_spawn_controller._instance; }
-    }
-
-    public void spawn()
-    {
-        this._spawning = true;
     }
 
     public void kill_near(Vector3 position, float distance)
@@ -86,5 +80,13 @@ public class dino_spawn_controller : MonoBehaviour
         }
 
         this._dinos.RemoveRange(0, count);
+    }
+}
+
+public class spawn_dinos : state
+{
+    public override void update()
+    {
+        this.completed = dino_spawn_controller.instance.update_spawn();
     }
 }
