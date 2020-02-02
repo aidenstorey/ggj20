@@ -34,6 +34,11 @@ public class meteor_state_controller : MonoBehaviour
         {
             if (value != this._state)
             {
+                if (this._state == meteor_state.drop && value == meteor_state.move)
+                {
+                    return;
+                }
+
                 this._state = value;
 
                 this._movement_controller.change_state(this._state);
