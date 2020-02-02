@@ -25,6 +25,10 @@ public class dino_movement_controller : MonoBehaviour
 
     public float speed = 1.0f;
 
+    void Start()
+    {
+        this.speed = Random.value + 0.5f;
+    }
 
     void Update()
     {
