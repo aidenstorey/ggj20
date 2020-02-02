@@ -141,7 +141,7 @@ public class test_controller : MonoBehaviour
     {
         foreach(var dino_controller in FindObjectsOfType<dino_movement_controller>())
         {
-            dino_controller.speed = Random.value * 0.5f + 0.1f;
+            dino_controller.speed = Random.value + 0.5f;
         }
     }
 }

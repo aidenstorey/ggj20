@@ -43,7 +43,7 @@ public class tween : state
     {
         this._go = go;
         this._start = start;
-        this._detla = end - this.start;
+        this._detla = end - this._start;
         this._duration = duration;
     }
 

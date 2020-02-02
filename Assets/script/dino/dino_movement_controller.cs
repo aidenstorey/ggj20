@@ -15,8 +15,8 @@ public class dino_movement_controller : MonoBehaviour
     Dictionary<dino_state, float> dino_speed_modifier = new Dictionary<dino_state, float>()
     {
         { dino_state.idle, 0.0f },
-        { dino_state.walk, 0.05f },
-        { dino_state.run, 0.1f },
+        { dino_state.walk, 2.0f },
+        { dino_state.run, 5.0f },
         { dino_state.hurt, 0.0f },
     };
 
@@ -33,7 +33,7 @@ public class dino_movement_controller : MonoBehaviour
 
     void process_movement()
     {
-        var offset = this._movement_offset * (this._speed_modifier * this.speed);
+        var offset = this._movement_offset * (this._speed_modifier * this.speed * Time.deltaTime);
         this.transform.position = game_border_controller.instance.keep_in_bounds(this.transform.position + offset);
     }
 
