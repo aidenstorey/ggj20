@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class state
@@ -65,6 +66,22 @@ public class close_game : state
     public override void update()
     {
         Application.Quit();
+        this.completed = true;
+    }
+}
+
+public class one_shot: state
+{
+    Action _action;
+
+    public one_shot(Action action)
+    {
+        this._action = action;
+    }
+
+    public override void update()
+    {
+        this._action();
         this.completed = true;
     }
 }
