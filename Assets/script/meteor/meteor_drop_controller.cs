@@ -11,17 +11,12 @@ public class meteor_drop_controller : MonoBehaviour
         this._state_controller = this.GetComponent<meteor_state_controller>();
     }
 
-    private void Update()
-    {
-        state_manager.update();
-    }
-
     public void change_state(meteor_state state)
     {
         if(state == meteor_state.drop && !state_manager.processing)
         {
             var position_a = this._meteor_object.transform.position;
-            var position_b = position_a + new Vector3(0.0f, -8.2f);
+            var position_b = position_a + new Vector3(0.0f, -8.5f);
             var position_c = position_b + new Vector3(0.0f, 1.0f);
             var position_d = position_c + new Vector3(0.0f, -3.5f);
             var position_e = position_a + new Vector3(0.0f, 4.0f);

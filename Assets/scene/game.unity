@@ -121,75 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &44697358
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8577406543795175985, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_Name
-      value: game_controller
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577406543795175991, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.207726
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577406543795175991, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.0042125825
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577406543795175991, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -72.847824
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577406543795175991, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577406543795175991, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577406543795175991, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577406543795175991, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577406543795175991, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577406543795175991, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577406543795175991, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8577406543795175991, guid: 7d112320500664dcd8beff975c2a3065,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7d112320500664dcd8beff975c2a3065, type: 3}
 --- !u!1 &105100336
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +132,7 @@ GameObject:
   - component: {fileID: 105100337}
   - component: {fileID: 105100338}
   m_Layer: 0
-  m_Name: sunset-beach-cloud-01
+  m_Name: cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,7 +213,7 @@ GameObject:
   - component: {fileID: 211514137}
   - component: {fileID: 211514138}
   m_Layer: 0
-  m_Name: sunset-beach-mountain-01 (1)
+  m_Name: mountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -365,7 +296,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -446,7 +377,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &551950082
 GameObject:
@@ -459,7 +390,7 @@ GameObject:
   - component: {fileID: 551950084}
   - component: {fileID: 551950083}
   m_Layer: 0
-  m_Name: sunset-beach-sky
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -527,13 +458,13 @@ Transform:
   m_LocalScale: {x: 0.4795, y: 0.4795, z: 0.959}
   m_Children:
   - {fileID: 105100337}
+  - {fileID: 1101210549}
   - {fileID: 1371655810}
   - {fileID: 594839077}
-  - {fileID: 1101210549}
   - {fileID: 590830320}
   - {fileID: 211514137}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &590830319
 GameObject:
@@ -546,7 +477,7 @@ GameObject:
   - component: {fileID: 590830320}
   - component: {fileID: 590830321}
   m_Layer: 0
-  m_Name: sunset-beach-mountain-01
+  m_Name: mountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -627,7 +558,7 @@ GameObject:
   - component: {fileID: 594839077}
   - component: {fileID: 594839078}
   m_Layer: 0
-  m_Name: sunset-beach-cloud-03 (1)
+  m_Name: cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -645,7 +576,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 551950084}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &594839078
 SpriteRenderer:
@@ -1646,7 +1577,7 @@ GameObject:
   - component: {fileID: 760090378}
   - component: {fileID: 760090377}
   m_Layer: 0
-  m_Name: Ground
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1676,6 +1607,49 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 595759195}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &832188673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832188675}
+  - component: {fileID: 832188674}
+  m_Layer: 0
+  m_Name: game_controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &832188674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832188673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a34be0cad6204336ac8ab0f6c39f9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &832188675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832188673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.35971335, y: 0.1527537, z: -74.81327}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1709,7 +1683,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &862511245
 MonoBehaviour:
@@ -1739,24 +1713,6 @@ MonoBehaviour:
   dino: {fileID: 8431163850797596509, guid: 94399deb335894325b6557c86dd87594, type: 3}
   spawn_count: 50
   spawn_time: 2
---- !u!1 &970281903 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8577406543795175985, guid: 7d112320500664dcd8beff975c2a3065,
-    type: 3}
-  m_PrefabInstance: {fileID: 44697358}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &970281906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970281903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a34be0cad6204336ac8ab0f6c39f9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1101210548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,7 +1724,7 @@ GameObject:
   - component: {fileID: 1101210549}
   - component: {fileID: 1101210550}
   m_Layer: 0
-  m_Name: sunset-beach-cloud-01 (1)
+  m_Name: cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1786,7 +1742,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 551950084}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1101210550
 SpriteRenderer:
@@ -1849,7 +1805,7 @@ GameObject:
   - component: {fileID: 1371655810}
   - component: {fileID: 1371655811}
   m_Layer: 0
-  m_Name: sunset-beach-cloud-03
+  m_Name: cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1867,7 +1823,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 551950084}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1371655811
 SpriteRenderer:
@@ -1919,6 +1875,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1504279351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504279352}
+  m_Layer: 0
+  m_Name: barriers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1504279352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504279351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.35971335, y: 0.1527537, z: -74.81327}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2135073952}
+  - {fileID: 2049022883}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1725800581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1989,7 +1977,7 @@ PrefabInstance:
     - target: {fileID: 2700736243785525397, guid: ffc55dde06ce642d888a18723d67769a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2700736243785525397, guid: ffc55dde06ce642d888a18723d67769a,
         type: 3}
@@ -2041,7 +2029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2049022883}
   m_Layer: 0
-  m_Name: Border Right
+  m_Name: barrier_right
   m_TagString: dino_edge_right
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2054,12 +2042,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049022882}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.46, y: -6.0099998, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.1002865, y: -6.1627536, z: 74.81327}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1504279352}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135073951
 GameObject:
@@ -2071,7 +2059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2135073952}
   m_Layer: 0
-  m_Name: Border Left
+  m_Name: barrier_left
   m_TagString: dino_edge_left
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2084,10 +2072,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135073951}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.99, y: -6.0099998, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.349713, y: -6.1627536, z: 74.81327}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1504279352}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
