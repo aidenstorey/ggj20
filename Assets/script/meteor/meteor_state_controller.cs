@@ -10,15 +10,15 @@ public class meteor_state_controller : MonoBehaviour
     meteor_drop_controller _drop_controller;
 
     meteor_direction _direction = meteor_direction.right;
-    meteor_state _state = meteor_state.idle;
+    meteor_state _state = meteor_state.drop;
 
     void Start()
     {
         this._movement_controller = this.GetComponent<meteor_movement_controller>();
-        this._movement_controller.change_state(meteor_state.drop);
+        this._movement_controller.change_state(this._state);
 
         this._drop_controller = this.GetComponent<meteor_drop_controller>();
-        this._drop_controller.change_state(this._state);
+        this._drop_controller.change_state(meteor_state.idle);
     }
 
     public meteor_state state
