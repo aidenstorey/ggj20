@@ -5,18 +5,37 @@ using UnityEngine.SceneManagement;
 
 public class game_timer : MonoBehaviour
 {
+    public static game_timer instance;
+
     public int timeRemaining = 20; //Seconds Overall
     public Text countdown; //UI Text Object
+
     void Start()
     {
-        StartCoroutine("DropTime");
+        if (game_timer.instance != null)
+        {
+            Destroy(this);
+            return;
+        }
+
+        game_timer.instance = this;
+
         Time.timeScale = 1; //Just making sure that the timeScale is right
+        countdown.text = ("Time Left: " + timeRemaining);
     }
+
     void Update()
     {
         countdown.text = ("Time Left: " + timeRemaining); //Showing the Score on the Canvas
     }
-    ////Simple Coroutine
+
+    public void start_timer()
+    {
+        StartCoroutine("DropTime");
+    }
+
+
+    //Simple Coroutine
     IEnumerator DropTime()
     {
         while (true)

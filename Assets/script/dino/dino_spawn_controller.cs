@@ -35,6 +35,11 @@ public class dino_spawn_controller : MonoBehaviour
         this._spawn_right = GameObject.FindGameObjectWithTag("dino_edge_right").transform.position;
     }
 
+    public int current_count
+    {
+        get { return this._dinos.Count; }
+    }
+
     public bool update_spawn()
     {
         if (this.spawn_count != 0)

@@ -11,7 +11,8 @@ public class game_controller : MonoBehaviour
         state_manager.add_queue(
             new spawn_dinos(),
             new tween(meteor, meteor.transform.position, new Vector3(0.0f, 3.0f), 0.5f),
-            new one_shot(() => state_controller.state = meteor_state.idle)
+            new one_shot(() => state_controller.state = meteor_state.idle),
+            new one_shot(() => game_timer.instance.start_timer())
         );
     }
 
@@ -43,7 +44,7 @@ public class game_controller : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.Space))
         {
             foreach(var meteor_controller in FindObjectsOfType<meteor_state_controller>())
             {
